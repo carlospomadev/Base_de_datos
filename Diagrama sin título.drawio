@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="Página-1" id="FnvqE0i3I_hrlVpK8BUk">
-    <mxGraphModel dx="5100" dy="2800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2494" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-39" value="Especialidad" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="765" y="801.25" width="120" height="55" as="geometry" />
+          <mxGeometry x="700" y="737.5" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="K8pAmzDxY5exkbGExF1x-39" target="K8pAmzDxY5exkbGExF1x-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -122,7 +122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-45" value="Especialización" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1105" y="540" width="120" height="55" as="geometry" />
+          <mxGeometry x="1190" y="570" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="K8pAmzDxY5exkbGExF1x-45" target="K8pAmzDxY5exkbGExF1x-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -130,10 +130,10 @@
             <mxPoint x="1005" y="672.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K8pAmzDxY5exkbGExF1x-47" value="AñoExperiencia" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K8pAmzDxY5exkbGExF1x-47" value="AñosExperiencia" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1440" y="527.4999999999999" width="120" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="K8pAmzDxY5exkbGExF1x-48" value="TrabajaFuera" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K8pAmzDxY5exkbGExF1x-48" value="Externo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1440" y="409.9999999999999" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-49" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="K8pAmzDxY5exkbGExF1x-47" target="K8pAmzDxY5exkbGExF1x-17">
@@ -637,7 +637,7 @@
             <mxPoint x="-830" y="782.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K8pAmzDxY5exkbGExF1x-199" value="IDPersona" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+        <mxCell id="K8pAmzDxY5exkbGExF1x-199" value="ID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
           <mxGeometry x="130" y="133" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-200" value="ID_Curso" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
@@ -791,16 +791,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-245" value="LEYENDA" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1580" y="1075" width="360" height="355" as="geometry" />
+          <mxGeometry x="-1580" y="1075" width="360" height="365" as="geometry" />
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-246" value="- ISA: Persona se especializa en Alumno, Profesor, Administrativo, Auditor o Visita (disjuntos).&lt;div&gt;&lt;br&gt;&lt;div&gt;- Relación Reflexiva: Asignatura → prerrequisito de otra; Alumno → representado por otro alumno.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Relación Débil: Asignatura se imparte en Aula.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Relación Ternaria: Matrícula une Alumno, Asignatura y Convocatoria, con precio &amp;gt; 0 y nota.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Auditorías: un Auditor evalúa a un Profesor en una Asignatura, tras recibir un curso.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Premios: se otorgan a la impartición de Asignaturas por parte de Profesores (N:M).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Restricciones adicionales: salario de profesor (0 &amp;lt; salario ≤ 60.000), departamentos pueden&lt;br&gt; quedarse sin profesores, curso se reasigna a &#39;General&#39; si el departamento desaparece.&lt;/div&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="K8pAmzDxY5exkbGExF1x-245">
-          <mxGeometry y="35" width="360" height="320" as="geometry" />
+          <mxGeometry y="35" width="360" height="330" as="geometry" />
         </mxCell>
         <mxCell id="K8pAmzDxY5exkbGExF1x-252" value="MEMORIA DESCRIPTIVA" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1140" y="1075" width="360" height="355" as="geometry" />
+          <mxGeometry x="-1150" y="1075" width="370" height="365" as="geometry" />
         </mxCell>
-        <mxCell id="K8pAmzDxY5exkbGExF1x-253" value="&amp;nbsp;Este diagrama refleja el modelo entidad-relación extendido solicitado. Se han realizado las&lt;br/&gt; siguientes suposiciones:&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- El atributo &#39;sexo&#39; es opcional y limitado a tres valores predefinidos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- La relación entre Profesor y Departamento es N:M porque un profesor puede pertenecer a varios&lt;br/&gt; y un departamento puede quedarse sin profesores.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- El aula se modela como entidad débil ya que su identificación depende de (número, edificio,&lt;br/&gt; planta).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- La relación de Matrícula es ternaria porque depende simultáneamente de Alumno, Asignatura y&lt;br/&gt; Convocatoria.- Los premios y auditorías se representan con agregación para mostrar que se aplican a la&lt;br/&gt; impartición concreta (Profesor+Asignatura).&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="K8pAmzDxY5exkbGExF1x-252">
-          <mxGeometry y="35" width="360" height="320" as="geometry" />
+        <mxCell id="K8pAmzDxY5exkbGExF1x-253" value="&amp;nbsp;Este diagrama refleja el modelo entidad-relación extendido solicitado. Se han realizado las&lt;br&gt; siguientes suposiciones:&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- El atributo &#39;sexo&#39; es opcional y limitado a tres valores predefinidos.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- La relación entre Profesor y Departamento es N:M porque un profesor puede pertenecer a varios&lt;br&gt; y un departamento puede quedarse sin profesores.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- El aula se modela como entidad débil ya que su identificación depende de (número, edificio,&lt;br&gt; planta).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- La relación de Matrícula es ternaria porque depende simultáneamente de Alumno, Asignatura y&lt;br&gt; Convocatoria.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Los premios y auditorías se representan con agregación para mostrar que se aplican a la&lt;br&gt; impartición concreta (Profesor+Asignatura).&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="K8pAmzDxY5exkbGExF1x-252">
+          <mxGeometry y="35" width="370" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="K8pAmzDxY5exkbGExF1x-255" value="ID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="-1305" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K8pAmzDxY5exkbGExF1x-256" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="K8pAmzDxY5exkbGExF1x-17" target="K8pAmzDxY5exkbGExF1x-255">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1260" y="710" as="sourcePoint" />
+            <mxPoint x="-1210" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K8pAmzDxY5exkbGExF1x-257" value="ID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="-726.5" y="467.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K8pAmzDxY5exkbGExF1x-258" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.178;exitY=-0.074;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="K8pAmzDxY5exkbGExF1x-257" source="K8pAmzDxY5exkbGExF1x-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-635.5" y="595.5" as="sourcePoint" />
+            <mxPoint x="-631.5" y="737.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K8pAmzDxY5exkbGExF1x-259" value="ID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="630" y="657.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K8pAmzDxY5exkbGExF1x-260" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="K8pAmzDxY5exkbGExF1x-259" source="K8pAmzDxY5exkbGExF1x-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="781" y="848" as="sourcePoint" />
+            <mxPoint x="785" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K8pAmzDxY5exkbGExF1x-261" value="ID" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="515.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K8pAmzDxY5exkbGExF1x-262" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="K8pAmzDxY5exkbGExF1x-261" source="K8pAmzDxY5exkbGExF1x-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1381" y="628" as="sourcePoint" />
+            <mxPoint x="1380" y="550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
